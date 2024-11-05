@@ -23,7 +23,7 @@ python aggr_pth.py --model_dir PPNet_res101_Logp --fname 24000
 python aggr_pth.py --model_dir PPNet_res101_Logp_additional
 ```
 
--Test 5-shot semi-supervised prediction using 6 unlabeled images
+- Test 5-shot semi-supervised prediction using 6 unlabeled images
 ```
 /bin/bash script/train_semi_sigma_sep.sh 0 5 6 0
 ```
